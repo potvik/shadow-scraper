@@ -1,0 +1,1812 @@
+{
+    "data": {
+      "clPool": {
+        "mints": [
+          {
+            "amount": "101911287167549",
+            "amount0": "1156.898127",
+            "amount1": "3938.436294",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742469411"
+          },
+          {
+            "amount": "269538127431536",
+            "amount0": "1632.248627",
+            "amount1": "11846.720534",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "5",
+            "tickUpper": "6",
+            "timestamp": "1742606242"
+          },
+          {
+            "amount": "53785537493799",
+            "amount0": "1400.552537",
+            "amount1": "1288.553529",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742262168"
+          },
+          {
+            "amount": "28093699683099",
+            "amount0": "1755.480185",
+            "amount1": "1053.788692",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-4",
+            "tickUpper": "-2",
+            "timestamp": "1742398509"
+          },
+          {
+            "amount": "16950730105176",
+            "amount0": "491.642897",
+            "amount1": "355.817133",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "3",
+            "tickUpper": "4",
+            "timestamp": "1742546972"
+          },
+          {
+            "amount": "11516380004",
+            "amount0": "0.604481",
+            "amount1": "4.001971",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-2",
+            "tickUpper": "6",
+            "timestamp": "1742512415"
+          },
+          {
+            "amount": "1461819823786",
+            "amount0": "259.838061",
+            "amount1": "470.94103",
+            "owner": "0x266080e589c80a2583b66f2bba7595673e6d621a",
+            "tickLower": "-6",
+            "tickUpper": "4",
+            "timestamp": "1742222629"
+          },
+          {
+            "amount": "460659510107568",
+            "amount0": "24267.932698",
+            "amount1": "21794.690567",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-2",
+            "tickUpper": "0",
+            "timestamp": "1742091930"
+          },
+          {
+            "amount": "16301287894",
+            "amount0": "2.59407",
+            "amount1": "1.480562",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "2",
+            "tickUpper": "7",
+            "timestamp": "1742496460"
+          },
+          {
+            "amount": "40719680957954",
+            "amount0": "600.842156",
+            "amount1": "1435.039778",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742205607"
+          },
+          {
+            "amount": "7998385284653",
+            "amount0": "238.906409",
+            "amount1": "160.99",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742116510"
+          },
+          {
+            "amount": "4841917003660150",
+            "amount0": "44449.532814",
+            "amount1": "197636.228433",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742469474"
+          },
+          {
+            "amount": "823352309289613",
+            "amount0": "16725.027582",
+            "amount1": "24439.840303",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742098427"
+          },
+          {
+            "amount": "16357158508107",
+            "amount0": "855",
+            "amount1": "780.596985",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-2",
+            "tickUpper": "0",
+            "timestamp": "1742064058"
+          },
+          {
+            "amount": "51114588310742",
+            "amount0": "9090.757625",
+            "amount1": "6241.884387",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-4",
+            "tickUpper": "2",
+            "timestamp": "1742406097"
+          },
+          {
+            "amount": "61425317129721",
+            "amount0": "910.989074",
+            "amount1": "2160.059968",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742098865"
+          },
+          {
+            "amount": "86588573344",
+            "amount0": "4.83544",
+            "amount1": "21.141099",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "0",
+            "tickUpper": "6",
+            "timestamp": "1742524354"
+          },
+          {
+            "amount": "11194994840590",
+            "amount0": "271.561455",
+            "amount1": "288.152897",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742130495"
+          },
+          {
+            "amount": "129146169969044",
+            "amount0": "21297.860789",
+            "amount1": "23897.032417",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-4",
+            "tickUpper": "3",
+            "timestamp": "1742098728"
+          },
+          {
+            "amount": "1600280340704551",
+            "amount0": "11375.115954",
+            "amount1": "68635.844188",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742211636"
+          },
+          {
+            "amount": "1694518904768",
+            "amount0": "113.398257",
+            "amount1": "310.233802",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "2",
+            "tickUpper": "7",
+            "timestamp": "1742606505"
+          },
+          {
+            "amount": "13644925388693",
+            "amount0": "444.864683",
+            "amount1": "237.324173",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "1",
+            "tickUpper": "2",
+            "timestamp": "1742216162"
+          },
+          {
+            "amount": "779967102073391",
+            "amount0": "6168.821771",
+            "amount1": "32825.324677",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-2",
+            "tickUpper": "-1",
+            "timestamp": "1742396089"
+          },
+          {
+            "amount": "797103302154089",
+            "amount0": "19320.795271",
+            "amount1": "20531.84925",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742129035"
+          },
+          {
+            "amount": "1484994073733182",
+            "amount0": "54053.263824",
+            "amount1": "20189.452858",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "1",
+            "tickUpper": "2",
+            "timestamp": "1742214486"
+          },
+          {
+            "amount": "328363002657",
+            "amount0": "114.906942",
+            "amount1": "0",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "6",
+            "timestamp": "1742450190"
+          },
+          {
+            "amount": "9657333784991",
+            "amount0": "354.164384",
+            "amount1": "128.667808",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742308622"
+          },
+          {
+            "amount": "105215740296694",
+            "amount0": "2000",
+            "amount1": "3260.493524",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742238777"
+          },
+          {
+            "amount": "1583284706991",
+            "amount0": "61.388207",
+            "amount1": "96.935696",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "3",
+            "tickUpper": "5",
+            "timestamp": "1742625369"
+          },
+          {
+            "amount": "154402730469",
+            "amount0": "15.38097",
+            "amount1": "61.817341",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-2",
+            "tickUpper": "8",
+            "timestamp": "1742605473"
+          },
+          {
+            "amount": "7551478198871",
+            "amount0": "217.464501",
+            "amount1": "160.073",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "4",
+            "tickUpper": "5",
+            "timestamp": "1742644009"
+          },
+          {
+            "amount": "369987812938",
+            "amount0": "104.976679",
+            "amount1": "79.98653",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-6",
+            "tickUpper": "4",
+            "timestamp": "1742411054"
+          },
+          {
+            "amount": "116386717108212",
+            "amount0": "818.696174",
+            "amount1": "5000.418096",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742212094"
+          },
+          {
+            "amount": "67442412947241",
+            "amount0": "10274.933259",
+            "amount1": "6582.808103",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "3",
+            "tickUpper": "8",
+            "timestamp": "1742509889"
+          },
+          {
+            "amount": "290508024888",
+            "amount0": "2.086842",
+            "amount1": "12.437485",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742198360"
+          },
+          {
+            "amount": "100778733742837",
+            "amount0": "728.495229",
+            "amount1": "9350.530814",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "3",
+            "tickUpper": "5",
+            "timestamp": "1742621149"
+          },
+          {
+            "amount": "434490754121057",
+            "amount0": "14207.373458",
+            "amount1": "7514.66087",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "3",
+            "tickUpper": "4",
+            "timestamp": "1742549766"
+          },
+          {
+            "amount": "759077586242",
+            "amount0": "15.434674",
+            "amount1": "22.516673",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742136517"
+          },
+          {
+            "amount": "29601635325886",
+            "amount0": "2828.015089",
+            "amount1": "131.987837",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "1",
+            "timestamp": "1742387566"
+          },
+          {
+            "amount": "16327959800",
+            "amount0": "5.979607",
+            "amount1": "2.999",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-4",
+            "tickUpper": "7",
+            "timestamp": "1742153192"
+          },
+          {
+            "amount": "39468487198683",
+            "amount0": "819.154712",
+            "amount1": "1154.239097",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "5",
+            "tickUpper": "6",
+            "timestamp": "1742587451"
+          },
+          {
+            "amount": "6774604737",
+            "amount0": "1.254237",
+            "amount1": "0.439269",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-3",
+            "tickUpper": "2",
+            "timestamp": "1742414536"
+          },
+          {
+            "amount": "1628335213157",
+            "amount0": "13.181065",
+            "amount1": "68.221441",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-4",
+            "tickUpper": "-3",
+            "timestamp": "1742398108"
+          },
+          {
+            "amount": "258652237772511",
+            "amount0": "21155.667817",
+            "amount1": "4708.699919",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-2",
+            "tickUpper": "0",
+            "timestamp": "1742433669"
+          },
+          {
+            "amount": "239208953331",
+            "amount0": "2.643605",
+            "amount1": "9.314975",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-4",
+            "tickUpper": "-3",
+            "timestamp": "1742398360"
+          },
+          {
+            "amount": "1820300072591",
+            "amount0": "303.127459",
+            "amount1": "151.89573",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-2",
+            "tickUpper": "3",
+            "timestamp": "1742151768"
+          },
+          {
+            "amount": "10661618450000",
+            "amount0": "626.736232",
+            "amount1": "439.355848",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-2",
+            "tickUpper": "0",
+            "timestamp": "1742044243"
+          },
+          {
+            "amount": "478127485647918",
+            "amount0": "17446.150519",
+            "amount1": "6459.616701",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-2",
+            "tickUpper": "-1",
+            "timestamp": "1742403222"
+          },
+          {
+            "amount": "101279415954907",
+            "amount0": "4680.115974",
+            "amount1": "5447.105875",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "0",
+            "tickUpper": "2",
+            "timestamp": "1742217976"
+          },
+          {
+            "amount": "779488505750354",
+            "amount0": "8978.160754",
+            "amount1": "29994.495831",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742469160"
+          },
+          {
+            "amount": "39452038169483",
+            "amount0": "337.938166",
+            "amount1": "1634.842855",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "4",
+            "tickUpper": "5",
+            "timestamp": "1742621158"
+          },
+          {
+            "amount": "157762784940056",
+            "amount0": "6531.327482",
+            "amount1": "1355.196509",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "4",
+            "tickUpper": "5",
+            "timestamp": "1742623896"
+          },
+          {
+            "amount": "701250735107418",
+            "amount0": "24465.710002",
+            "amount1": "10590.193092",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "6",
+            "tickUpper": "7",
+            "timestamp": "1742594493"
+          },
+          {
+            "amount": "57158574312803",
+            "amount0": "2220.803944",
+            "amount1": "636.917542",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742298279"
+          },
+          {
+            "amount": "248988929357305",
+            "amount0": "1068.743666",
+            "amount1": "11382.351645",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "4",
+            "tickUpper": "5",
+            "timestamp": "1742505594"
+          },
+          {
+            "amount": "2562976328228757",
+            "amount0": "5938.926893",
+            "amount1": "122229.360077",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "4",
+            "tickUpper": "5",
+            "timestamp": "1742515995"
+          },
+          {
+            "amount": "29917778467330",
+            "amount0": "5380.729318",
+            "amount1": "602.418872",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-2",
+            "tickUpper": "2",
+            "timestamp": "1742446721"
+          },
+          {
+            "amount": "296843371873433",
+            "amount0": "8858.203105",
+            "amount1": "5982.253501",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "5",
+            "tickUpper": "6",
+            "timestamp": "1742617008"
+          },
+          {
+            "amount": "1995533648899794",
+            "amount0": "14658.09701",
+            "amount1": "85114.733019",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742210244"
+          },
+          {
+            "amount": "2041944857973",
+            "amount0": "122.551843",
+            "amount1": "183.724245",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "2",
+            "tickUpper": "5",
+            "timestamp": "1742498019"
+          },
+          {
+            "amount": "4534014163231",
+            "amount0": "67.7",
+            "amount1": "158.984718",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742098749"
+          },
+          {
+            "amount": "1087921549132742",
+            "amount0": "5526.814396",
+            "amount1": "48860.878305",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-3",
+            "tickUpper": "-2",
+            "timestamp": "1742402899"
+          },
+          {
+            "amount": "960056283385321",
+            "amount0": "20534.060405",
+            "amount1": "27465.939595",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742222138"
+          },
+          {
+            "amount": "101081487717737",
+            "amount0": "1157.292288",
+            "amount1": "8950.248637",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "1",
+            "timestamp": "1742469168"
+          },
+          {
+            "amount": "506847128918376",
+            "amount0": "12338",
+            "amount1": "13002.75626",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742132438"
+          },
+          {
+            "amount": "5062601218354",
+            "amount0": "419.940879",
+            "amount1": "86.303453",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-2",
+            "tickUpper": "0",
+            "timestamp": "1742407637"
+          },
+          {
+            "amount": "18091728019961",
+            "amount0": "258.000016",
+            "amount1": "646.522226",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742098671"
+          },
+          {
+            "amount": "41411962578453",
+            "amount0": "1721.596145",
+            "amount1": "348.575003",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "4",
+            "tickUpper": "5",
+            "timestamp": "1742624144"
+          },
+          {
+            "amount": "258689169904",
+            "amount0": "30",
+            "amount1": "21.732314",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "3",
+            "timestamp": "1742204822"
+          },
+          {
+            "amount": "316111658576",
+            "amount0": "1.921514",
+            "amount1": "13.886484",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "5",
+            "tickUpper": "6",
+            "timestamp": "1742588989"
+          },
+          {
+            "amount": "3219782884690",
+            "amount0": "67.433758",
+            "amount1": "93.549946",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "3",
+            "tickUpper": "4",
+            "timestamp": "1742570098"
+          },
+          {
+            "amount": "432952813671",
+            "amount0": "23.420777",
+            "amount1": "149.756221",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-2",
+            "tickUpper": "6",
+            "timestamp": "1742507130"
+          },
+          {
+            "amount": "199136343102454",
+            "amount0": "9082.671344",
+            "amount1": "873.813357",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742390698"
+          },
+          {
+            "amount": "518155456605533",
+            "amount0": "7319.962799",
+            "amount1": "18585.970518",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742098557"
+          },
+          {
+            "amount": "8787406839106",
+            "amount0": "239.345875",
+            "amount1": "200.000002",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-2",
+            "tickUpper": "-1",
+            "timestamp": "1742456284"
+          },
+          {
+            "amount": "3516442770044958",
+            "amount0": "11310.499771",
+            "amount1": "164529.128242",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "3",
+            "tickUpper": "4",
+            "timestamp": "1742473011"
+          },
+          {
+            "amount": "3403152857517",
+            "amount0": "402",
+            "amount1": "278.557463",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "3",
+            "timestamp": "1742244927"
+          },
+          {
+            "amount": "19086229227144",
+            "amount0": "489.460496",
+            "amount1": "464.793181",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-2",
+            "tickUpper": "-1",
+            "timestamp": "1742404534"
+          },
+          {
+            "amount": "468309153498410",
+            "amount0": "19987.752695",
+            "amount1": "3421.003113",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "6",
+            "tickUpper": "7",
+            "timestamp": "1742594121"
+          },
+          {
+            "amount": "203288585283797",
+            "amount0": "1252.881296",
+            "amount1": "8912.707969",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "4",
+            "tickUpper": "5",
+            "timestamp": "1742504262"
+          },
+          {
+            "amount": "4016314977003850",
+            "amount0": "36926.139094",
+            "amount1": "163900.279006",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "3",
+            "tickUpper": "4",
+            "timestamp": "1742495970"
+          },
+          {
+            "amount": "3271893550988",
+            "amount0": "617.858956",
+            "amount1": "200.004425",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "4",
+            "timestamp": "1742295056"
+          },
+          {
+            "amount": "265349795362671",
+            "amount0": "11023.659518",
+            "amount1": "2243.73213",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-2",
+            "tickUpper": "-1",
+            "timestamp": "1742396692"
+          },
+          {
+            "amount": "612963274883327",
+            "amount0": "17648.809171",
+            "amount1": "12995.934348",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "6",
+            "tickUpper": "7",
+            "timestamp": "1742594958"
+          },
+          {
+            "amount": "130169716326993",
+            "amount0": "5102.999999",
+            "amount1": "1404.827974",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "1",
+            "tickUpper": "2",
+            "timestamp": "1742214120"
+          },
+          {
+            "amount": "269678816048358",
+            "amount0": "1934.49078",
+            "amount1": "11546.530101",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-5",
+            "tickUpper": "-4",
+            "timestamp": "1742399002"
+          },
+          {
+            "amount": "234057227977645",
+            "amount0": "7610.497321",
+            "amount1": "4092.085604",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-3",
+            "tickUpper": "-2",
+            "timestamp": "1742397609"
+          },
+          {
+            "amount": "239759001732",
+            "amount0": "10.757522",
+            "amount1": "1.228106",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "3",
+            "tickUpper": "4",
+            "timestamp": "1742534091"
+          },
+          {
+            "amount": "13660893959359",
+            "amount0": "218.112389",
+            "amount1": "464.896906",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742205075"
+          },
+          {
+            "amount": "39459226091234",
+            "amount0": "238.9542",
+            "amount1": "1734.309088",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "5",
+            "tickUpper": "6",
+            "timestamp": "1742606272"
+          },
+          {
+            "amount": "163735094465346",
+            "amount0": "1185.84705",
+            "amount1": "7000.59302",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742212140"
+          },
+          {
+            "amount": "8372698214094",
+            "amount0": "396.343544",
+            "amount1": "22.203908",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "3",
+            "tickUpper": "4",
+            "timestamp": "1742537638"
+          },
+          {
+            "amount": "393540626946869",
+            "amount0": "9464.303747",
+            "amount1": "10211.479549",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742129180"
+          },
+          {
+            "amount": "49871418422032",
+            "amount0": "2029.113287",
+            "amount1": "464.353187",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742374064"
+          },
+          {
+            "amount": "952324170184",
+            "amount0": "158.581506",
+            "amount1": "79.472421",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-2",
+            "tickUpper": "3",
+            "timestamp": "1742151643"
+          },
+          {
+            "amount": "21981453697091",
+            "amount0": "866.752067",
+            "amount1": "232.27237",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742373484"
+          },
+          {
+            "amount": "342292464480687",
+            "amount0": "1407.402525",
+            "amount1": "15709.517815",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "4",
+            "tickUpper": "5",
+            "timestamp": "1742507085"
+          },
+          {
+            "amount": "81285824576671",
+            "amount0": "3453.447494",
+            "amount1": "610.827757",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-2",
+            "tickUpper": "-1",
+            "timestamp": "1742396630"
+          },
+          {
+            "amount": "2634053773417019",
+            "amount0": "51793.830204",
+            "amount1": "79899.999999",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742097908"
+          },
+          {
+            "amount": "3072132334415",
+            "amount0": "251.773287",
+            "amount1": "362.625967",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406",
+            "tickLower": "4",
+            "tickUpper": "8",
+            "timestamp": "1742603423"
+          }
+        ],
+        "burns": [
+          {
+            "amount": "207831211005372",
+            "amount0": "10391.300774",
+            "amount1": "0",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742422564",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "269552080076105",
+            "amount0": "13472.551098",
+            "amount1": "0",
+            "tickLower": "6",
+            "tickUpper": "7",
+            "timestamp": "1742606242",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "13858795079001",
+            "amount0": "0",
+            "amount1": "2771.759019",
+            "tickLower": "-1",
+            "tickUpper": "3",
+            "timestamp": "1742543227",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "0",
+            "amount0": "0",
+            "amount1": "0",
+            "tickLower": "-1",
+            "tickUpper": "3",
+            "timestamp": "1742543227",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "136497231378957",
+            "amount0": "0",
+            "amount1": "6824.008555",
+            "tickLower": "-2",
+            "tickUpper": "-1",
+            "timestamp": "1742100561",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "0",
+            "amount0": "0",
+            "amount1": "0",
+            "tickLower": "-6",
+            "tickUpper": "4",
+            "timestamp": "1742222629",
+            "owner": "0x266080e589c80a2583b66f2bba7595673e6d621a"
+          },
+          {
+            "amount": "0",
+            "amount0": "0",
+            "amount1": "0",
+            "tickLower": "0",
+            "tickUpper": "4",
+            "timestamp": "1742222629",
+            "owner": "0x266080e589c80a2583b66f2bba7595673e6d621a"
+          },
+          {
+            "amount": "1107553285612",
+            "amount0": "196.867283",
+            "amount1": "356.810242",
+            "tickLower": "-6",
+            "tickUpper": "4",
+            "timestamp": "1742222629",
+            "owner": "0x266080e589c80a2583b66f2bba7595673e6d621a"
+          },
+          {
+            "amount": "5136218700093",
+            "amount0": "912.961421",
+            "amount1": "114.130788",
+            "tickLower": "0",
+            "tickUpper": "4",
+            "timestamp": "1742222629",
+            "owner": "0x266080e589c80a2583b66f2bba7595673e6d621a"
+          },
+          {
+            "amount": "992849751185200",
+            "amount0": "0",
+            "amount1": "49636.28293",
+            "tickLower": "-2",
+            "tickUpper": "-1",
+            "timestamp": "1742099892",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "3245986156637107",
+            "amount0": "0",
+            "amount1": "162319.595448",
+            "tickLower": "3",
+            "tickUpper": "4",
+            "timestamp": "1742606566",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "144792900977076",
+            "amount0": "0",
+            "amount1": "7237.654517",
+            "tickLower": "-5",
+            "tickUpper": "-4",
+            "timestamp": "1742403498",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "235531768775146",
+            "amount0": "11773.35048",
+            "amount1": "0",
+            "tickLower": "4",
+            "tickUpper": "5",
+            "timestamp": "1742533115",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "310535076802705",
+            "amount0": "0",
+            "amount1": "15525.58943",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742206703",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "17952501184559",
+            "amount0": "4123.676023",
+            "amount1": "364.047273",
+            "tickLower": "-2",
+            "tickUpper": "3",
+            "timestamp": "1742418708",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "8285879263251",
+            "amount0": "0",
+            "amount1": "2071.314473",
+            "tickLower": "-3",
+            "tickUpper": "2",
+            "timestamp": "1742474024",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "13660893959359",
+            "amount0": "0",
+            "amount1": "683.027622",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742216162",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "4008538772505675",
+            "amount0": "0",
+            "amount1": "200411.907857",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742207053",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "2000316260328243",
+            "amount0": "100003.312414",
+            "amount1": "0",
+            "tickLower": "1",
+            "tickUpper": "2",
+            "timestamp": "1742223800",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "477135157526990",
+            "amount0": "23849.006069",
+            "amount1": "0",
+            "tickLower": "5",
+            "tickUpper": "6",
+            "timestamp": "1742623454",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "779746775171744",
+            "amount0": "38986.364123",
+            "amount1": "0",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742396089",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "508168919901",
+            "amount0": "9.661983",
+            "amount1": "15.745044",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742259870",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "411055149326542",
+            "amount0": "0",
+            "amount1": "20555.326586",
+            "tickLower": "3",
+            "tickUpper": "4",
+            "timestamp": "1742515605",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "934683541914781",
+            "amount0": "24338.0868",
+            "amount1": "22393.122005",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742263268",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "66861594755227",
+            "amount0": "0",
+            "amount1": "3342.829027",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742469228",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "51114588310742",
+            "amount0": "0",
+            "amount1": "15332.84326",
+            "tickLower": "-4",
+            "tickUpper": "2",
+            "timestamp": "1742624704",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "0",
+            "amount0": "0",
+            "amount1": "0",
+            "tickLower": "5",
+            "tickUpper": "7",
+            "timestamp": "1742621149",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "100792339903636",
+            "amount0": "10075.707052",
+            "amount1": "0",
+            "tickLower": "5",
+            "tickUpper": "7",
+            "timestamp": "1742621149",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "1431588504512512",
+            "amount0": "71574.057216",
+            "amount1": "0",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742400735",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "960059688582527",
+            "amount0": "0",
+            "amount1": "47996.984716",
+            "tickLower": "-2",
+            "tickUpper": "-1",
+            "timestamp": "1742095942",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "239862833685",
+            "amount0": "0",
+            "amount1": "11.993441",
+            "tickLower": "1",
+            "tickUpper": "2",
+            "timestamp": "1742471890",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "0",
+            "amount0": "0",
+            "amount1": "0",
+            "tickLower": "3",
+            "tickUpper": "4",
+            "timestamp": "1742587451",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "39481648794401",
+            "amount0": "0",
+            "amount1": "1974.329202",
+            "tickLower": "3",
+            "tickUpper": "4",
+            "timestamp": "1742587451",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "2010243483067997",
+            "amount0": "100509.661474",
+            "amount1": "0",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742396724",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "369987812938",
+            "amount0": "104.975884",
+            "amount1": "79.987323",
+            "tickLower": "-6",
+            "tickUpper": "4",
+            "timestamp": "1742411356",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "789077929011594",
+            "amount0": "0",
+            "amount1": "39450.937654",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742205407",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "67594421278339",
+            "amount0": "6498.353817",
+            "amount1": "3639.738104",
+            "tickLower": "0",
+            "tickUpper": "3",
+            "timestamp": "1742217976",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "3994343915515",
+            "amount0": "998.411252",
+            "amount1": "0",
+            "tickLower": "0",
+            "tickUpper": "5",
+            "timestamp": "1742410581",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "779606567836133",
+            "amount0": "0",
+            "amount1": "38977.40511",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742469160",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "0",
+            "amount0": "0",
+            "amount1": "0",
+            "tickLower": "5",
+            "tickUpper": "6",
+            "timestamp": "1742621158",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "39459226091234",
+            "amount0": "1972.320227",
+            "amount1": "0",
+            "tickLower": "5",
+            "tickUpper": "6",
+            "timestamp": "1742621158",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "3997575774783203",
+            "amount0": "199863.799079",
+            "amount1": "0",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742379143",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "4564190171480",
+            "amount0": "857.916538",
+            "amount1": "54.785246",
+            "tickLower": "0",
+            "tickUpper": "4",
+            "timestamp": "1742300982",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "0",
+            "amount0": "0",
+            "amount1": "0",
+            "tickLower": "0",
+            "tickUpper": "4",
+            "timestamp": "1742300982",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "5185884592865451",
+            "amount0": "0",
+            "amount1": "259261.821429",
+            "tickLower": "-2",
+            "tickUpper": "-1",
+            "timestamp": "1742098415",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "1730835011674",
+            "amount0": "173.100809",
+            "amount1": "0",
+            "tickLower": "-4",
+            "tickUpper": "-2",
+            "timestamp": "1742399714",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "137964405816379",
+            "amount0": "0",
+            "amount1": "6897.358108",
+            "tickLower": "-2",
+            "tickUpper": "-1",
+            "timestamp": "1742098020",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "119636139957785",
+            "amount0": "5979.863321",
+            "amount1": "0",
+            "tickLower": "5",
+            "tickUpper": "6",
+            "timestamp": "1742621091",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "1240744736752988",
+            "amount0": "62032.584432",
+            "amount1": "0",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742373755",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "232346968454888",
+            "amount0": "0",
+            "amount1": "11615.315662",
+            "tickLower": "-3",
+            "tickUpper": "-2",
+            "timestamp": "1742402984",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "3262053902483791",
+            "amount0": "163098.61776",
+            "amount1": "0",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742397008",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "20901631721569",
+            "amount0": "0",
+            "amount1": "1044.794242",
+            "tickLower": "-5",
+            "tickUpper": "-4",
+            "timestamp": "1742401661",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "893635526539",
+            "amount0": "0",
+            "amount1": "89.359084",
+            "tickLower": "-1",
+            "tickUpper": "1",
+            "timestamp": "1742493857",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "0",
+            "amount0": "0",
+            "amount1": "0",
+            "tickLower": "-1",
+            "tickUpper": "1",
+            "timestamp": "1742493857",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "0",
+            "amount0": "0",
+            "amount1": "0",
+            "tickLower": "-2",
+            "tickUpper": "0",
+            "timestamp": "1742552163",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "3241679462257668",
+            "amount0": "162063.714844",
+            "amount1": "0",
+            "tickLower": "1",
+            "tickUpper": "2",
+            "timestamp": "1742221936",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "62896337114234",
+            "amount0": "6289.319253",
+            "amount1": "0",
+            "tickLower": "-1",
+            "tickUpper": "1",
+            "timestamp": "1742399395",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "101175266645688",
+            "amount0": "0",
+            "amount1": "10116.515013",
+            "tickLower": "-2",
+            "tickUpper": "0",
+            "timestamp": "1742469168",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "5000272635445",
+            "amount0": "0",
+            "amount1": "499.977265",
+            "tickLower": "-2",
+            "tickUpper": "0",
+            "timestamp": "1742506736",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "29898346580591",
+            "amount0": "2989.535704",
+            "amount1": "0",
+            "tickLower": "0",
+            "tickUpper": "2",
+            "timestamp": "1742382189",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "28633055981335",
+            "amount0": "531.558769",
+            "amount1": "900.070205",
+            "tickLower": "3",
+            "tickUpper": "4",
+            "timestamp": "1742556505",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "199989238147",
+            "amount0": "0",
+            "amount1": "9.998712",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742209567",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "82743442768301",
+            "amount0": "4137.275562",
+            "amount1": "0",
+            "tickLower": "-2",
+            "tickUpper": "-1",
+            "timestamp": "1742397426",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "778119578709",
+            "amount0": "0",
+            "amount1": "116.685845",
+            "tickLower": "-6",
+            "tickUpper": "-3",
+            "timestamp": "1742404311",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "6491727838585",
+            "amount0": "0",
+            "amount1": "649.107873",
+            "tickLower": "-2",
+            "tickUpper": "0",
+            "timestamp": "1742233803",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "7888646600",
+            "amount0": "0.250945",
+            "amount1": "1.720805",
+            "tickLower": "-6",
+            "tickUpper": "-1",
+            "timestamp": "1742433351",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "4952147172706923",
+            "amount0": "0",
+            "amount1": "247588.78963",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742225635",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "305915558157",
+            "amount0": "0",
+            "amount1": "76.476977",
+            "tickLower": "-2",
+            "tickUpper": "3",
+            "timestamp": "1742479512",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "749986273048",
+            "amount0": "97.361024",
+            "amount1": "52.624135",
+            "tickLower": "-3",
+            "tickUpper": "1",
+            "timestamp": "1742420071",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "0",
+            "amount0": "0",
+            "amount1": "0",
+            "tickLower": "-3",
+            "tickUpper": "1",
+            "timestamp": "1742420071",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "35515537243756",
+            "amount0": "1775.64369",
+            "amount1": "0",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742089559",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "1624702434993",
+            "amount0": "81.229029",
+            "amount1": "0",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742384464",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "23283754354394",
+            "amount0": "0",
+            "amount1": "1164.04221",
+            "tickLower": "-2",
+            "tickUpper": "-1",
+            "timestamp": "1742117356",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "1003908949187514",
+            "amount0": "0",
+            "amount1": "50194.192635",
+            "tickLower": "0",
+            "tickUpper": "1",
+            "timestamp": "1742213761",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "15789810298031",
+            "amount0": "0",
+            "amount1": "3947.15655",
+            "tickLower": "-3",
+            "tickUpper": "2",
+            "timestamp": "1742554021",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "100142211154699",
+            "amount0": "10012.71917",
+            "amount1": "0",
+            "tickLower": "1",
+            "tickUpper": "3",
+            "timestamp": "1742395014",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "158089230424779",
+            "amount0": "27523.737027",
+            "amount1": "4090.644425",
+            "tickLower": "-1",
+            "tickUpper": "3",
+            "timestamp": "1742131552",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "6741155833422",
+            "amount0": "466.834161",
+            "amount1": "544.252901",
+            "tickLower": "-1",
+            "tickUpper": "2",
+            "timestamp": "1742250934",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "25735282120452",
+            "amount0": "0",
+            "amount1": "1286.538952",
+            "tickLower": "-3",
+            "tickUpper": "-2",
+            "timestamp": "1742456318",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "269677528530656",
+            "amount0": "13485.561927",
+            "amount1": "0",
+            "tickLower": "-4",
+            "tickUpper": "-3",
+            "timestamp": "1742399002",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "39248711439024",
+            "amount0": "0",
+            "amount1": "3923.693918",
+            "tickLower": "-6",
+            "tickUpper": "-4",
+            "timestamp": "1742406382",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "13670020005656",
+            "amount0": "0",
+            "amount1": "683.449741",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742205075",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "65929199647299",
+            "amount0": "1959.366092",
+            "amount1": "1336.936014",
+            "tickLower": "-2",
+            "tickUpper": "-1",
+            "timestamp": "1742418559",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "0",
+            "amount0": "0",
+            "amount1": "0",
+            "tickLower": "6",
+            "tickUpper": "7",
+            "timestamp": "1742606272",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "39463621536704",
+            "amount0": "1972.441309",
+            "amount1": "0",
+            "tickLower": "6",
+            "tickUpper": "7",
+            "timestamp": "1742606272",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "139779077403983",
+            "amount0": "0",
+            "amount1": "6988.429742",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742204966",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "478167535326966",
+            "amount0": "23907.779086",
+            "amount1": "0",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742402346",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "582823630323643",
+            "amount0": "0",
+            "amount1": "29144.8242",
+            "tickLower": "3",
+            "tickUpper": "4",
+            "timestamp": "1742588706",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "468467326091",
+            "amount0": "61.780701",
+            "amount1": "55.322816",
+            "tickLower": "-2",
+            "tickUpper": "3",
+            "timestamp": "1742337648",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "960084250276456",
+            "amount0": "47998.212647",
+            "amount1": "0",
+            "tickLower": "1",
+            "tickUpper": "2",
+            "timestamp": "1742222115",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "9388732956862284",
+            "amount0": "0",
+            "amount1": "469401.443028",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742213962",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "2932352120621313",
+            "amount0": "0",
+            "amount1": "146606.610626",
+            "tickLower": "-1",
+            "tickUpper": "0",
+            "timestamp": "1742212538",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "779535193608178",
+            "amount0": "0",
+            "amount1": "38969.939673",
+            "tickLower": "-3",
+            "tickUpper": "-2",
+            "timestamp": "1742403047",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "11811736882",
+            "amount0": "8.073889",
+            "amount1": "1.372749",
+            "tickLower": "-4",
+            "tickUpper": "12",
+            "timestamp": "1742411744",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "0",
+            "amount0": "0",
+            "amount1": "0",
+            "tickLower": "-4",
+            "tickUpper": "12",
+            "timestamp": "1742411744",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "951499981648806",
+            "amount0": "0",
+            "amount1": "47569.052861",
+            "tickLower": "-2",
+            "tickUpper": "-1",
+            "timestamp": "1742145458",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "5204869785439380",
+            "amount0": "0",
+            "amount1": "260210.962413",
+            "tickLower": "-2",
+            "tickUpper": "-1",
+            "timestamp": "1742469428",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "136068596472",
+            "amount0": "34.009496",
+            "amount1": "0",
+            "tickLower": "1",
+            "tickUpper": "6",
+            "timestamp": "1742256116",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "90681478106239",
+            "amount0": "0",
+            "amount1": "9067.241086",
+            "tickLower": "-2",
+            "tickUpper": "0",
+            "timestamp": "1742235175",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          },
+          {
+            "amount": "779692060275492",
+            "amount0": "0",
+            "amount1": "38973.884245",
+            "tickLower": "-5",
+            "tickUpper": "-4",
+            "timestamp": "1742401340",
+            "owner": "0x12e66c8f215ddd5d48d150c8f46ad0c6fb0f4406"
+          }
+        ],
+        "tick": "4",
+        "tickSpacing": "1"
+      }
+    }
+  }
