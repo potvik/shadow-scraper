@@ -13,6 +13,13 @@ const buildWhereQuery = (filter: GetEventsFilter) => {
     }
   }
 
+  if(filter.gauge) {
+    where = {
+      ...where,
+      gauge: filter.gauge
+    }
+  }
+
   if(filter.blockNumber_gt) {
     transactionWhere = {
       ...transactionWhere,
@@ -215,24 +222,71 @@ export const getPositionsQuery = (params: GetEventsParams) => {
       orderBy: ${orderBy},
       where: ${whereQuery}
     ) {
-      id
+      collectedFeesToken0
+      collectedFeesToken1
+      collectedToken0
+      collectedToken1
+      depositedToken0
+      depositedToken1
       feeGrowthInside0LastX128
       feeGrowthInside1LastX128
+      id
       liquidity
-      tickLower { feeGrowthOutside0X128 feeGrowthOutside1X128 }
-      tickUpper { feeGrowthOutside0X128 feeGrowthOutside1X128 }
-      pool {
+      owner
+      withdrawnToken0
+      withdrawnToken1
+      transaction {
+        from
+        timestamp
+        id
+      }
+      tickUpper {
+        tickIdx
+        price1
+        price0
+      }
+      tickLower {
+        price1
+        price0
+        tickIdx
+      }
+    }
+  }`
+}
+
+export const getRewardsQuery = (params: GetEventsParams) => {
+  const { first = 1000, skip = 0, filter = {}, sort = {} } = params
+
+  const whereQuery = buildWhereQuery(filter)
+  const orderDirection = sort.orderDirection || 'asc'
+  const orderBy = sort.orderBy || 'transaction__blockNumber'
+
+  return `{
+    gaugeRewardClaims(
+      first: ${first}
+      orderDirection: ${orderDirection},
+      orderBy: ${orderBy},
+      where: ${whereQuery}
+    ) {
+      timestamp
+      id
+      logIndex
+      nfpPositionHash
+      period
+      receiver
+      rewardAmount
+      rewardToken {
         id
         symbol
-        token0 { symbol decimals }
-        token1 { symbol decimals }
-        feeGrowthGlobal0X128
-        feeGrowthGlobal1X128
       }
-      token0 { symbol decimals }
-      token1 { symbol decimals }
-      tickLower { tickIdx }
-      tickUpper { tickIdx }
+      transaction {
+        id
+        blockNumber
+        timestamp
+      }
+      gauge {
+        id
+      }
     }
   }`
 }

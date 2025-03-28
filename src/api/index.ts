@@ -1,5 +1,5 @@
 import axios from "axios";
-import {getBurnsQuery, getMintsQuery, getPositionsQuery, getSwapsQuery} from "./query";
+import {getBurnsQuery, getMintsQuery, getPositionsQuery, getRewardsQuery, getSwapsQuery} from "./query";
 import {ClBurn, ClMint, ClPosition, ClSwap} from "../types";
 import {appConfig} from "../config";
 
@@ -14,6 +14,7 @@ export interface GetEventsFilter {
   timestamp_gt?: number
   owner?: string
   liquidity_gt?: number
+  gauge?: string
 }
 
 export interface GetEventsSort {
@@ -70,4 +71,15 @@ export const getPositions = async (params: GetEventsParams) => {
     query: getPositionsQuery(params)
   })
   return data.data.clPositions
+}
+
+export const getRewards = async (params: GetEventsParams) => {
+  const { data } = await client.post<{
+    data: {
+      gaugeRewardClaims: any[]
+    }
+  }>('/', {
+    query: getRewardsQuery(params)
+  })
+  return data.data.gaugeRewardClaims
 }
