@@ -1,7 +1,6 @@
 const fs = require('fs');
 const readline = require('readline');
 const { ethers } = require("ethers");
-import { duration } from "moment";
 import { exportArrayToCSV, exportToJson } from "../utils";
 
 function compute(owner: string, index: string, tickLower: string, tickUpper: string) {
@@ -89,7 +88,6 @@ const rewards_filePath = 'export/rewards_USDC.e_USDT_1743112073.jsonl'; // пу�
 const positions_filePath = 'export/positions_USDC.e_USDT_1743112231.jsonl'; // путь к вашему JSONL файлу
 const positions_burns_filePath = 'export/positions_burns_USDC.e_USDT_1743624858.jsonl'; // путь к вашему JSONL файлу
 const pool_hours_data_filePath = 'export/pool_hours_data_USDC.e_USDT_1743628848.jsonl';
-const swaps_data_filePath = 'export/swaps_USDC.e_USDT_1743709148.jsonl';
 
 const getFile = (filePath: string) => {
     return new Promise((resolve, reject) => {
@@ -122,20 +120,11 @@ const start = async () => {
     const positions: any = await getFile(positions_filePath);
     const positionsBurns: any = await getFile(positions_burns_filePath);
     const poolHoursData: any = await getFile(pool_hours_data_filePath);
-    const swaps: any = await getFile(swaps_data_filePath);
 
     console.log(rewards.length);
     console.log(positions.length);
     console.log(positionsBurns.length);
     console.log(poolHoursData.length);
-
-    positionsBurns.sort((a: any, b: any) => {
-        return Number(a.timestamp) - Number(b.timestamp) > 0 ? -1 : 1;
-    })
-
-    // positionsBurns.forEach((pb: any) => {
-    //     console.log(pb.position.id, pb.timestamp)
-    // })
 
     // const result = [];
 
@@ -236,52 +225,16 @@ const start = async () => {
     console.log('TVL: ', TVL);
 
     const positionsFinal = positionsWithRewards.map((p: any) => {
-        const closeDate = positionsBurns.find((pb: any) => pb.position.id === p.id);
-        const endDate = closeDate?.timestamp * 1000 || Date.now();
+        const daysElapsed = (Date.now() - p.transaction.timestamp * 1000) / (1000 * 60 * 60 * 24);
 
-        const daysElapsed = Math.ceil((endDate - p.transaction.timestamp * 1000) / (1000 * 60 * 60 * 24));
-
-        //console.log('daysElapsed: ', daysElapsed);
-        const openDateTime = p.transaction.timestamp;
-        const closeDateTime = closeDate?.timestamp || Date.now() / 1000;
-
-        let hoursInRange = poolHoursData
-            .filter((ph: any) => Number(ph.startOfHour) >= (openDateTime - 3600) && Number(ph.startOfHour) <= (Number(closeDateTime) + 3600))
-            .filter((ph: any) => {
-                //console.log(ph.tick, p.tickLower.tickIdx, p.tickUpper.tickIdx, ph.tick >= p.tickLower.tickIdx && ph.tick <= p.tickUpper.tickIdx);
-                return Number(ph.tick) >= Number(p.tickLower.tickIdx) && Number(ph.tick) <= Number(p.tickUpper.tickIdx);
-                // console.log(p.tickUpper.price0, ph.high, p.tickLower.price0, ph.low);
-                // return Number(p.tickUpper.price0) >= Number(ph.low) && Number(p.tickLower.price0) <= Number(ph.high);
-                // return Number(p.tickUpper.price0) >= Number(ph.token0Price) && Number(ph.token0Price) >= Number(p.tickLower.price0)
-            }).length;
-
-        const duration = closeDateTime - openDateTime;
-
-        hoursInRange = Math.min(hoursInRange, duration / 3600);
-
-        const inRange = Math.round((hoursInRange / (duration / 3600)) * 100);
-
-        const swapsInInterval = swaps.filter((swap: any) => swap.transaction.timestamp > openDateTime && swap.transaction.timestamp < closeDateTime)
-        const swapsInRange = swapsInInterval.filter((ph: any) => Number(ph.tick) >= Number(p.tickLower.tickIdx) && Number(ph.tick) <= Number(p.tickUpper.tickIdx))
+        // console.log('daysElapsed: ', daysElapsed);
 
         return {
             ...p,
             apr: (((p.totalUSD / (Number(p.depositedToken0) + Number(p.depositedToken1))) * (365 / daysElapsed)) * 100).toFixed(2),
             apr_30d: (((p.totalUSD / (Number(p.depositedToken0) + Number(p.depositedToken1))) * (30 / daysElapsed)) * 100).toFixed(2),
             price_mid: ((Number(p.tickLower.price0) + Number(p.tickUpper.price0)) / 2).toFixed(4),
-            ticks: Math.abs(p.tickUpper.tickIdx - p.tickLower.tickIdx),
-            open_date: openDateTime,
-            close_date: closeDateTime,
-            duration,
-            in_range: inRange,
-            hours_in_range: hoursInRange,
-            wallet: p.transaction.from,
-            hours: poolHoursData
-            // .filter((ph: any) => ph.startOfHour >= openDateTime && ph.startOfHour <= closeDateTime).length,
-                .filter((ph: any) => Number(ph.startOfHour) >= (openDateTime - 3600) && Number(ph.startOfHour) <= (+closeDateTime + 3600)).length,
-            swapsInInterval: swapsInInterval.length,
-            swapsInRange: swapsInRange.length,
-            in_range_swaps: Math.round(swapsInRange.length / (swapsInInterval.length || 1) * 100),
+            ticks: Math.abs(p.tickUpper.tickIdx - p.tickLower.tickIdx)
         }
     })
 
@@ -320,128 +273,23 @@ const start = async () => {
         total_profit_usd: pos.totalUSD,
         apr_30d: pos.apr_30d,
         apr: pos.apr,
-        in_range: pos.in_range,
-        in_range_swaps: pos.in_range_swaps,
-        //swaps_in_interval: pos.swapsInInterval,
-        //swaps_in_range: pos.swapsInRange,
-        //hours_in_range: pos.hours_in_range,
-        //hours: pos.hours,
-        //duration: pos.duration,
-        //open_date: pos.open_date,
-        //close_date: pos.close_date,
         price_lower: Number(pos.tickLower.price0).toFixed(4),
         price_upper: Number(pos.tickUpper.price0).toFixed(4),
         price_range: (Number(pos.tickUpper.price0) - Number(pos.tickLower.price0)).toFixed(4),
         price_mid: Number(pos.price_mid).toFixed(4),
-        wallet: pos.wallet,
       }
     })
     const poolSymbol = 'USDC.e/USDT'
 
-    // return;
+    return;
 
     const exportFileName = `export/positions_stats_${poolSymbol.replace('/', '_')
-        }_
+        }_${Math.round(Date.now() / 1000)
         }`
     console.log(`Total swaps: ${swapsCsv.length}. Exporting to ${exportFileName}...`)
     exportArrayToCSV(`${exportFileName}.csv`, swapsCsv)
     // await exportToJson(`${exportFileName}.jsonl`, swaps)
     console.log('Export complete! check' + exportFileName)
-
-    const groupedByWallet = positionsFinal.reduce((acc: any, pos: any) => {
-        const wallet_ticks = pos.wallet + '_' + pos.ticks;
-        
-        return {
-            ...acc,
-            [wallet_ticks]: (acc[wallet_ticks] || 0) + 1
-        }
-    }, {});
-
-    console.log('Grouped by wallet: ', Object.keys(groupedByWallet).length);
-
-    let wallets = Object.keys(groupedByWallet).map(wallet_ticks => {
-        const [wallet, ticks] = wallet_ticks.split('_');
-
-        const positions = positionsFinal.filter((p: any) => p.wallet === wallet && p.ticks == ticks);
-
-        const intervals = positions.map((p: any) => {
-            return {
-                start: p.open_date,
-                end: p.close_date
-            }
-        })
-
-        intervals.sort((a: any, b: any) => a.start - b.start);
-
-        let totalGap = 0;
-        let gapCount = 0;
-      
-        for (let i = 1; i < intervals.length; i++) {
-          const prevEnd = intervals[i - 1].end;
-          const currentStart = intervals[i].start;
-          const gap = currentStart - prevEnd;
-          if (gap > 0) {
-            totalGap += gap;
-            gapCount++;
-          }
-        }
-
-        const averageGapMs = gapCount ? totalGap / gapCount : 0;
-
-        return {
-            wallet,
-            positions: groupedByWallet[wallet_ticks],
-            total_profit_usd: positions.reduce((acc: number, pos: any) => {
-                return acc + Number(pos.totalUSD) || 0;
-            }, 0).toFixed(2),
-            mid_deposited_usd: (positions.reduce((acc: number, pos: any) => {
-                return acc + (Number(pos.depositedToken0) || 0) + (Number(pos.depositedToken1) || 0);
-            }, 0) / positions.length).toFixed(2),
-            apr: (positions.reduce((acc: number, pos: any) => {
-                return acc + Number(pos.apr) || 0;
-            }, 0) / positions.length).toFixed(2),
-            in_range: (positions.reduce((acc: number, pos: any) => {
-                return acc + Number(pos.in_range) || 0;
-            }, 0) / positions.length).toFixed(2),
-            ticks,
-            duration: positions.reduce((acc: number, pos: any) => {
-                return acc + Number(pos.duration) || 0;
-            }, 0) / positions.length,
-            price: positions.reduce((acc: number, pos: any) => {
-                return acc + '|' + String(pos.price_mid);
-            }, ''),
-            averageGap: averageGapMs
-        }
-    });
-
-    wallets = wallets.filter((w: any) => Number(w.total_profit_usd) > 100);
-
-    wallets.sort((a: any, b: any) => {
-        return b.apr - a.apr;
-    })
-
-    const walletsCsv = wallets.map((wallet: any) => {
-        return {
-            wallet: wallet.wallet,
-            ticks: wallet.ticks,
-            apr: wallet.apr,
-            total_profit_usd: wallet.total_profit_usd,
-            mid_deposited_usd: wallet.mid_deposited_usd,
-            rebalances: wallet.positions,
-            in_range: wallet.in_range,
-            rebalances_gap_hours: Math.round(wallet.averageGap / 3600),
-            mid_duration_hours: Math.round(wallet.duration / 3600),
-            // price: wallet.price,
-        }
-    })
-
-    const exportFileNameWallets = `export/wallets_stats_${poolSymbol.replace('/', '_')}`
-    
-    exportArrayToCSV(`${exportFileNameWallets}.csv`, walletsCsv)
-    
-    console.log('Export complete! check' + exportFileNameWallets)
-    
 };
 
 start();
-
