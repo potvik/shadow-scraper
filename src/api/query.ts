@@ -27,6 +27,17 @@ const buildWhereQuery = (filter: GetEventsFilter) => {
     }
   }
 
+  if(filter.startOfHour_gt) {
+    // transactionWhere = {
+    //   ...transactionWhere,
+    //   startOfHour_gt: filter.startOfHour_gt
+    // }
+    where = {
+      ...where,
+      startOfHour_gt: filter.startOfHour_gt
+    }
+  }
+
   if(filter.blockNumber_lte) {
     transactionWhere = {
       ...transactionWhere,
@@ -55,9 +66,11 @@ const buildWhereQuery = (filter: GetEventsFilter) => {
     }
   }
 
-  where = {
-    ...where,
-    transaction_: transactionWhere
+  if(Object.keys(transactionWhere).length) {
+    where = {
+      ...where,
+      transaction_: transactionWhere
+    }
   }
 
   return buildFilterQuery(where)
@@ -290,3 +303,73 @@ export const getRewardsQuery = (params: GetEventsParams) => {
     }
   }`
 }
+
+export const getPositionsBurnsQuery = (params: GetEventsParams) => {
+  const { first = 1000, skip = 0, filter = {}, sort = {} } = params
+
+  const whereQuery = buildWhereQuery(filter)
+  const orderDirection = sort.orderDirection || 'asc'
+  const orderBy = sort.orderBy || 'transaction__blockNumber'
+
+  return `{
+    clPositionBurns(
+          first: ${first}
+          orderDirection: ${orderDirection},
+          orderBy: ${orderBy},
+          where: ${whereQuery}
+    ) {
+      id
+      transaction {
+        id
+        from
+        timestamp
+      }
+      amount0
+      amount1
+      liquidity
+      logIndex
+      position {
+        id
+      }
+      timestamp
+    }
+  }`
+}
+
+export const getPoolHourDatasQuery = (params: GetEventsParams) => {
+  const { first = 1000, skip = 0, filter = {}, sort = {} } = params
+
+  const whereQuery = buildWhereQuery(filter)
+  const orderDirection = sort.orderDirection || 'asc'
+  const orderBy = sort.orderBy || 'transaction__blockNumber'
+
+  return `{
+    clPoolHourDatas(
+      first: ${first}
+      orderDirection: ${orderDirection},
+      orderBy: startOfHour,
+      where: ${whereQuery}
+    ) {
+      sqrtPrice
+      tick
+      token0Price
+      token1Price
+      txCount
+      volumeToken0
+      volumeToken1
+      startOfHour
+      tvlUSD
+      close
+      feeGrowthGlobal0X128
+      feeGrowthGlobal1X128
+      feesUSD
+      high
+      id
+      liquidity
+      low
+      open
+    }
+  }`
+}
+
+

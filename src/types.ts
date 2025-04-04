@@ -163,3 +163,37 @@ export interface ClPosition {
   feeGrowthInside0LastX128: string
   feeGrowthInside1LastX128: string
 }
+
+export interface clPositionBurns {
+    id: string
+    transaction: Transaction
+    amount0: string
+    amount1: string
+    liquidity: string
+    logIndex: string
+    position: {
+      id: string
+    },
+    timestamp: string
+}
+
+export interface clPoolHourDatas {
+  id: string;
+  sqrtPrice: string;
+  tick: string;
+  token0Price: string;
+  token1Price: string;
+  txCount: string;
+  volumeToken0: string;
+  volumeToken1: string;
+  startOfHour: string;
+  tvlUSD: string;
+  close: string;
+  feeGrowthGlobal0X128: string;
+  feeGrowthGlobal1X128: string;
+  feesUSD: string;
+  high: string;
+  liquidity: string;
+  low: string;
+  open: string;
+}

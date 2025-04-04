@@ -1,6 +1,6 @@
 import axios from "axios";
-import {getBurnsQuery, getMintsQuery, getPositionsQuery, getRewardsQuery, getSwapsQuery} from "./query";
-import {ClBurn, ClMint, ClPosition, ClSwap} from "../types";
+import {getBurnsQuery, getMintsQuery, getPoolHourDatasQuery, getPositionsBurnsQuery, getPositionsQuery, getRewardsQuery, getSwapsQuery} from "./query";
+import {ClBurn, ClMint, clPoolHourDatas, ClPosition, clPositionBurns, ClSwap} from "../types";
 import {appConfig} from "../config";
 
 const client = axios.create({
@@ -10,6 +10,7 @@ const client = axios.create({
 export interface GetEventsFilter {
   poolSymbol?: string
   blockNumber_gt?: number
+  startOfHour_gt?: number
   blockNumber_lte?: number
   timestamp_gt?: number
   owner?: string
@@ -60,6 +61,30 @@ export const getSwapEvents = async (params: GetEventsParams) => {
     query: getSwapsQuery(params)
   })
   return data.data.clSwaps
+}
+
+export const getPoolHourDatas = async (params: GetEventsParams) => {
+  console.log(getPoolHourDatasQuery(params));
+
+  const { data } = await client.post<{
+    data: {
+      clPoolHourDatas: clPoolHourDatas[]
+    }
+  }>('/', {
+    query: getPoolHourDatasQuery(params)
+  })
+  return data.data.clPoolHourDatas
+}
+
+export const getPositionsBurns = async (params: GetEventsParams) => {
+  const { data } = await client.post<{
+    data: {
+      clPositionBurns: clPositionBurns[]
+    }
+  }>('/', {
+    query: getPositionsBurnsQuery(params)
+  })
+  return data.data.clPositionBurns
 }
 
 export const getPositions = async (params: GetEventsParams) => {
